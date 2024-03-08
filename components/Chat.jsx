@@ -6,7 +6,7 @@ import ChatBox from './ChatBox.jsx'
 
 export default function Chat() {
 
-  const client = Ably.Realtime.Promise({ authUrl: '/api' })
+  const client = Ably.Realtime.Promise({ authUrl: '/api/route' })
 
   return (
     <AblyProvider client={ client }>
